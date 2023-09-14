@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+* {
+  box-sizing: border-box;
+}
+.navbar-brand img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav-link {
+  color: black;
+}
+.navbar-nav {
+  margin-top: 0%;
+  text-align: right;
+}
+.cart img:hover {
+  transform: scale(1.5);
+}
+.nav-item :hover {
+  transform: scale(1.1);
+}
+
+#navbarSupportedContent {
+  margin-left: 45%;
+}
+.carousel-item,
+.carousel slide,
+.carousel-inner {
+  width: 100%;
+  height: 80%;
+  overflow-x: hidden;
+}
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.one {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.card-img {
+  max-width: 50%;
+  height: 100%;
+}
+#one:hover {
+  transform: scale(1.03);
+}
+.card-button:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  background-color: pink;
+}
